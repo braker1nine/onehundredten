@@ -46,7 +46,6 @@ a {
 	text-decoration: none;
 }
 .app {
-	height: 200px;
 	padding: 120px 10%;
 }
 
@@ -79,4 +78,17 @@ a {
 
 #outshape {
 	background-color: #daf5ff;
+}
+
+@media (max-width:640px) {
+	.logo {
+		text-align: center;
+	}
+	.logo img {
+		float:none;
+	}
+
+	.app .information {
+		margin-left: 0;
+	}
 }
