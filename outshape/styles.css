@@ -86,3 +86,13 @@ p.mailchimp {
 p.mailchimp a {
 	color: rgb(111,111,116);
 }
+
+.footer {
+	text-align: center;
+	margin:40px 0;
+}
+
+.footer a {
+	color:rgb(103, 131, 255);
+}
+}

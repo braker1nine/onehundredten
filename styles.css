@@ -23,7 +23,7 @@ header td {
 
 header td:first-child {
 	border-right: 1px solid #F9FFF2;
-	font-weight: 200;
+	text-align: right;
 }
 
 .bold {
