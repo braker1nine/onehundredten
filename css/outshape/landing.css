@@ -1,0 +1,114 @@
+a {
+  color: #70c3e6;
+}
+html,
+body {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #faf5eb;
+  color: #5b5b60;
+  font-family: Avenir, 'Helvetica Neue', sans-serif;
+  font-weight: 200;
+}
+img.logo {
+  width: 80%;
+  margin: 50px auto;
+  display: block;
+}
+img.screen_gif {
+  display: block;
+  margin: 30px auto;
+  width: 320px;
+  border: 10px solid #5b5b60;
+  border-top-width: 80px;
+  border-bottom-width: 80px;
+  border-radius: 20px;
+  padding: 0;
+  min-height: 500px;
+  box-shadow: 0 0 0px 2px #3d3d3d;
+}
+p {
+  text-align: center;
+  max-width: 400px;
+  margin: 4em auto 2em auto;
+}
+p.prompt {
+  margin: 1em auto;
+  font-style: italic;
+  color: rgba(91, 91, 96, 0.4);
+}
+a.blogLink {
+  display: block;
+  max-width: 360px;
+  background-color: #ff6959;
+  border-radius: 2px;
+  margin: auto;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  text-align: center;
+  padding: 0.5em 1em;
+}
+a.blogLink:active {
+  transform: scale(1.1, 1.2);
+}
+form {
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+input[type="email"] {
+  background-color: #E7E6DA;
+  font-family: Avenir, 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  height: 40px;
+  width: 200px;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 8px;
+  border: none;
+  border-left: 2px solid #c9c9ce;
+  transition: all 250ms linear;
+}
+input:focus {
+  outline: none;
+}
+input[type="email"]:focus {
+  border-left: 2px solid #96e696;
+}
+input[type="submit"] {
+  margin-left: 1em;
+  border: 3px solid #96e696;
+  font-family: Avenir, 'Helvetica Neue', sans-serif;
+  border-radius: 20px;
+  background-color: transparent;
+  height: 40px;
+  color: #96e696;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 120ms linear;
+}
+input[type="submit"]:active {
+  color: #333338;
+  background-color: #96e696;
+}
+p.mailchimp {
+  margin-top: 1em;
+  font-size: 11px;
+  color: #5b5b60;
+}
+p.mailchimp a {
+  color: #6f6f74;
+}
+.footer {
+  text-align: center;
+  margin: 40px 0;
+  padding-bottom: 40px;
+}
