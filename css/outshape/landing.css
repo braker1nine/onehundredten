@@ -18,6 +18,10 @@ body {
   font-family: Avenir, 'Helvetica Neue', sans-serif;
   font-weight: 200;
 }
+.social-icons {
+  font-size: 28px;
+  text-align: center;
+}
 img.logo {
   width: 80%;
   margin: 50px auto;
@@ -38,7 +42,7 @@ img.screen_gif {
 p {
   text-align: center;
   max-width: 400px;
-  margin: 4em auto 2em auto;
+  margin: 4em auto 1em auto;
 }
 p.prompt {
   margin: 1em auto;

@@ -15,6 +15,10 @@ body {
   font-family: Avenir, 'Helvetica Neue', sans-serif;
   font-weight: 200;
 }
+.social-icons {
+  font-size: 28px;
+  text-align: center;
+}
 a {
   color: #70c3e6;
 }
