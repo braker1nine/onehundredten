@@ -22,6 +22,10 @@ body {
   font-size: 28px;
   text-align: center;
 }
+.social-icons a {
+  display: inline-block;
+  margin: 0 0.2em;
+}
 img.logo {
   width: 80%;
   margin: 50px auto;
