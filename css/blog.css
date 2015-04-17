@@ -25,6 +25,7 @@ body {
 .social-icons a {
   display: inline-block;
   margin: 0 0.2em;
+  text-decoration: none;
 }
 /* Define Blog Variables */
 /* END BLOG VARIABLES */
@@ -114,7 +115,6 @@ h4 {
   right: 0;
 }
 .emailLink a {
-  transition: transform 200ms ease-in-out;
   display: block;
   width: 100%;
   max-width: 220px;
@@ -128,9 +128,6 @@ h4 {
   text-align: center;
   margin: auto;
   box-shadow: 0 0 8px 2px #faf5eb;
-}
-.emailLink a:hover {
-  transform: scale(1.2, 1.2);
 }
 @media (max-width: 600px) {
   .container {

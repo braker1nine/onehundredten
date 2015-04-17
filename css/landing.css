@@ -25,6 +25,7 @@ body {
 .social-icons a {
   display: inline-block;
   margin: 0 0.2em;
+  text-decoration: none;
 }
 img.logo {
   width: 80%;
