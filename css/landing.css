@@ -1,5 +1,5 @@
 a {
-  color: #70c3e6;
+  color: #70d5e6;
 }
 html,
 body {
@@ -13,7 +13,7 @@ body {
   box-sizing: border-box;
 }
 body {
-  background-color: #faf5eb;
+  background-color: #faf5e5;
   color: #5b5b60;
   font-family: Avenir, 'Helvetica Neue', sans-serif;
   font-weight: 200;
@@ -57,7 +57,7 @@ p.prompt {
 a.blogLink {
   display: block;
   max-width: 360px;
-  background-color: #ff6959;
+  background-color: #ff7d5f;
   border-radius: 2px;
   margin: auto;
   color: rgba(255, 255, 255, 0.8);

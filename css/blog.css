@@ -1,5 +1,5 @@
 a {
-  color: #70c3e6;
+  color: #70d5e6;
 }
 html,
 body {
@@ -13,7 +13,7 @@ body {
   box-sizing: border-box;
 }
 body {
-  background-color: #faf5eb;
+  background-color: #faf5e5;
   color: #5b5b60;
   font-family: Avenir, 'Helvetica Neue', sans-serif;
   font-weight: 200;
@@ -30,8 +30,8 @@ body {
 /* Define Blog Variables */
 /* END BLOG VARIABLES */
 .container {
-  border-left: 100px solid #70c3e6;
-  border-right: 100px solid #ff6959;
+  border-left: 100px solid #70d5e6;
+  border-right: 100px solid #ff7d5f;
   padding-bottom: 80px;
   min-height: 100%;
   min-width: 100%;
@@ -50,16 +50,16 @@ header img {
   max-width: 600px;
 }
 header span:nth-child(odd) {
-  color: #70c3e6;
+  color: #70d5e6;
 }
 header span:nth-child(even) {
-  color: #ff6959;
+  color: #ff7d5f;
 }
 header .blog {
   width: 140px;
   margin: 10px auto;
-  background-color: #70c3e6;
-  color: #faf5eb;
+  background-color: #70d5e6;
+  color: #faf5e5;
   border-radius: 18px;
   height: 36px;
   line-height: 36px;
@@ -126,16 +126,16 @@ h4 {
   display: block;
   width: 100%;
   max-width: 220px;
-  color: #faf5eb;
+  color: #faf5e5;
   text-decoration: none;
   font-size: 16px;
   line-height: 36px;
   height: 36px;
-  background-color: #ff6959;
+  background-color: #ff7d5f;
   border-radius: 18px;
   text-align: center;
   margin: auto;
-  box-shadow: 0 0 8px 2px #faf5eb;
+  box-shadow: 0 0 8px 2px #faf5e5;
 }
 @media (max-width: 600px) {
   .container {
