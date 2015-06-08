@@ -1,3 +1,58 @@
+a {
+  color: #70d5e6;
+}
+/* One Hundred Ten Colors */
+.support {
+  padding: 80px 0;
+  background-color: #faf5e5;
+  color: #545452;
+}
+form {
+  width: 400px;
+  margin: auto;
+  font-size: 16px;
+}
+form h2 {
+  border-bottom: 1px solid #545452;
+}
+form input,
+form textarea,
+form label {
+  display: block;
+  width: 100%;
+  margin: 4px 0;
+}
+form input,
+form textarea {
+  border: 1px solid #545452;
+  color: #545452;
+}
+form input {
+  font-size: 1em;
+  height: 2em;
+  padding: 0 0.4em;
+}
+form textarea {
+  height: 80px;
+  max-width: 400px;
+  padding: 0.4em;
+  font-size: 1em;
+}
+form label {
+  margin-top: 1em;
+}
+form button {
+  background-color: #70E6A7;
+  color: white;
+  border: none;
+  width: 100%;
+  font-size: 1em;
+  padding: 0.5em 0;
+  margin-top: 1em;
+}
+#feedbackStatus {
+  text-align: center;
+}
 /* Variables */
 /* END Variables */
 body,
