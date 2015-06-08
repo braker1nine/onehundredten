@@ -80,6 +80,9 @@ header .blog {
   width: 30%;
   display: inline-block;
 }
+.post img.screen:first-child:last-child {
+  width: 50%;
+}
 .post p {
   margin: 0.5em auto 1em auto;
 }
