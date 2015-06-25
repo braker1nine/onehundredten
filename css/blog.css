@@ -85,6 +85,8 @@ header .blog {
 }
 .post p {
   margin: 0.5em auto 1em auto;
+  font-family: Palatino, serif;
+  line-height: 1.5em;
 }
 .post .caption {
   font-size: 12px;
