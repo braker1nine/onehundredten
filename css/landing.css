@@ -32,8 +32,9 @@ img.logo {
   width: 80%;
   margin: 50px auto;
   display: block;
+  max-width: 730px;
 }
-img.screen_gif {
+.screen_gif {
   display: block;
   margin: 30px auto;
   width: 320px;
@@ -44,6 +45,9 @@ img.screen_gif {
   padding: 0;
   min-height: 500px;
   box-shadow: 0 0 0px 2px #3d3d3d;
+}
+.screen_gif video {
+  width: 100%;
 }
 p {
   text-align: center;

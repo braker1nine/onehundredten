@@ -102,11 +102,12 @@ a {
   text-align: center;
 }
 .app .header__img {
-  width: 320px;
+  width: 600px;
+  max-width: 100%;
 }
 .app .information {
   margin-left: 200px;
-  padding-left: 20px;
+  padding-left: 40px;
   padding-top: 20px;
   text-align: center;
   color: #888;
