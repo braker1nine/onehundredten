@@ -53,6 +53,10 @@ form button {
 #feedbackStatus {
   text-align: center;
 }
+.privacy {
+  margin: auto;
+  max-width: 640px;
+}
 /* Variables */
 /* END Variables */
 body,
@@ -90,6 +94,11 @@ header td:first-child {
   border-radius: 48px;
   margin: 0;
   float: left;
+}
+.content {
+  padding: 80px 1em;
+  background-color: #faf5e5;
+  color: #545452;
 }
 a {
   color: inherit;
@@ -148,6 +157,14 @@ a {
 }
 .footer a {
   text-decoration: underline;
+}
+.links {
+  padding: 0;
+  margin-left: 144px;
+}
+.links li {
+  display: inline-block;
+  padding: 1em 1em 1em 0;
 }
 @media (max-width: 500px) {
   .footer {
