@@ -10,7 +10,7 @@ window.addEventListener('DOMContentLoaded', function() {
 		var form = $(e.target).parents('form');
 		form.replaceWith('<div id="feedbackStatus"></div>')
 		var request = new XMLHttpRequest()
-		request.open('POST', 'https://outshape-production.onehundredten.com/api/feedback/')
+		request.open('POST', 'https://outshape-production.onehundredten.co/api/feedback/')
 		request.onreadystatechange = function() {
 			if (request.readyState == 4) {
 				if (request.statusCode == 200) {
