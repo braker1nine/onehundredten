@@ -13,7 +13,7 @@ window.addEventListener('DOMContentLoaded', function() {
 		request.open('POST', 'https://outshape-production.onehundredten.co/api/feedback/')
 		request.onreadystatechange = function() {
 			if (request.readyState == 4) {
-				if (request.statusCode == 200) {
+				if (request.status == 200) {
 					$('#feedbackStatus').html('Thank you for your feedback');
 				} else {
 					alert('There was an error submitting your feedback.');
