@@ -11,7 +11,7 @@ window.addEventListener('DOMContentLoaded', function() {
 		form.replaceWith('<div id="feedbackStatus"></div>')
 		var request = new XMLHttpRequest()
 		request.open('POST', 'https://outshape-production.onehundredten.co/api/feedback/')
-		request.setRequestHeader('Content-type', 'application/json');
+		request.setRequestHeader('Content-type', 'application/json;charset=UTF-8');
 		request.onreadystatechange = function() {
 			if (request.readyState == 4) {
 				if (request.status == 200) {
@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoaded', function() {
 				}
 			}
 		}
-		request.send(params)
+		request.send(JSON.stringify(params))
 	});
 
 
