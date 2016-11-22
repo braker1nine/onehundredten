@@ -192,6 +192,10 @@ a {
   }
   .logo img {
     float: none;
+    margin-bottom: 2em;
+  }
+  .app {
+    padding: 40px 5%;
   }
   .app .information {
     margin-left: 0;
