@@ -104,6 +104,9 @@ a {
   color: inherit;
   text-decoration: none;
 }
+p > a {
+  text-decoration: underline;
+}
 .app {
   padding: 120px 10%;
 }
