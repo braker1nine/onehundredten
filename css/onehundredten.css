@@ -53,7 +53,8 @@ form button {
 #feedbackStatus {
   text-align: center;
 }
-.privacy {
+.privacy,
+.terms {
   margin: auto;
   max-width: 640px;
 }
